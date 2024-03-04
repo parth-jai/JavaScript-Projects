@@ -1,3 +1,3 @@
 # JavaScript-Projects
-Here you will get all the projects regarding webDev(JavaScript)
-Author - Parth Jaiswal
+Here you will get all the projects regarding webDev(JavaScript). 
+ Author - Parth Jaiswal
