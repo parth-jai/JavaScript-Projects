@@ -7,8 +7,53 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 class="main">Hello world</h1>
+    <section class="image-generator">
+        <div class="content">
+    <h1>   AI Image Generator tool Javascript</h1>
+    <p>Convert your text into an image within a second using this Javascript-powered AI Image Generator tool.</p>
+    <form action="#" class="generate-form">
+        <input type="text" class="prompt-input" placeholder="Describe what you want to see" required>
+        <div class="controls">
+        <select class="img-quality">
+            <option value="1">1 Image</option>
+            <option value="1">2 Image</option>
+            <option value="1">3 Image</option>
+            <option value="1">4 Image</option>
+        </select>
+        <button type="submit" class="generate-btn">Generate</button>
+    </div>
+    </form>
+</div>
+</section>
+<section class="image-gallery">
+    <div class="img-card">
+        <img src="images/img-1.jpg" alt="image">
+        <a href="#" class="download-btn">
+            <img src="images/download.svg" alt="download btn">
+        </a>
+    </div>
+    <div class="img-card">
+        <img src="images/img-2.jpg" alt="image">
+        <a href="#" class="download-btn">
+            <img src="images/download.svg" alt="download btn">
+        </a>
+    </div>
+    <div class="img-card">
+        <img src="images/img-3.jpg" alt="image">
+        <a href="#" class="download-btn">
+            <img src="images/download.svg" alt="download btn">
+        </a>
+    </div>
+    <div class="img-card">
+        <img src="images/img-4.jpg" alt="image">
+        <a href="#" class="download-btn">
+            <img src="images/download.svg" alt="download btn">
+        </a>
+    </div>
+</section>
+    
+
     
 </body>
-<script src="main.js"></script>
+<script src="main.js" defer></script>
 </html>
